@@ -37,7 +37,7 @@
 | USB-A 5Gb/s |  | ✔ |  |
 | USB-C 10Gb/s |  | ✔ |  |
 | 雷电 3 | 雷电控制器 8A17 | ❌ | 连接的部分设备可分别被识别，但无雷电总线，也不可热插拔（需要冷启动）；雷电网桥不可用 |
-| 读卡器 | 瑞昱 SDXC UHS-I | ✔ | [RealtekCardReader](https://github.com/0xFireWolf/RealtekCardReader) 及 [Realtek Card Reader Driver for macOS](https://github.com/0xFireWolf/RealtekCardReaderFriend) |
+| 读卡器 | 瑞昱 SDXC UHS-I | ✔ |  |
 | 各主要元件传感器 |  | ✔ | 温控正常，参数可读 |
 
 
@@ -105,8 +105,6 @@
 ## 🙏致谢
 
 - **核显**：因为本人配置 EFI 时屡屡碰壁，查遍中外资料，柳暗花明拜读到 [@一直幸运一直作死 的《榨干联想 C940 的所有可玩性 macOS 黑苹果 + ChromeOS 安装记录》](https://zhuanlan.zhihu.com/p/620424062)，套用该核显调度方案才成功安装，最终的 EFI 也基于此修改而来。本人十分佩服大佬驯服 Icelake 处理器的精妙技术，遂斗胆把三个 EFI 放进仓库，以帮助更多人并提醒自己不断学习，再次感谢大佬的无私公开！
-- **无线卡**：[AirportItlwm](https://github.com/OpenIntelWireless/itlwm)
-- **读卡器**：[RealtekCardReader](https://github.com/0xFireWolf/RealtekCardReader) 及 [Realtek Card Reader Driver for macOS](https://github.com/0xFireWolf/RealtekCardReaderFriend)
 
 
 
